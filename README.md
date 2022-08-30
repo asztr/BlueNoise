@@ -27,6 +27,11 @@ python dither.py --images "img/meadow1.png" --noises "pred128.png" --bits 1
 ```
 This uses the blue noise mask in `pred128.png` to dither the image `meadow1.png`, compressing it to a single bit per color channel,
 outputting the file `dither_meadow1_pred128_bits4.png`.
+<br><br>
+<div align="center">
+    <img src="img/meadow1.png" width="200px"> <img src="img/dither_meadow1_bluenoise128_bits2.png" width="200px"><br>
+    <b>Left:</b> original image. <b>Right:</b> dithering with 2 bits per channel.
+</div>
 
 ### BibTeX
 If you find our work useful, please cite:
